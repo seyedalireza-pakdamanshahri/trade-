@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>
+                coineview
+        </title>
+        <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    </head> 
+    <body>
+
+        <script>
+        var age = window.prompt();
+        
+        var isadult = (age < 18) ? "too young":"old enough"
+        document.write(isadult);
+         alert("Your name is " + age);
+         
+        </script>
+        <input type="number" id="a" onkeyup="a()" />
+        <input type="number" id="b" onkeyup="a()" />
+        
+        
+        <script>
+            function a() {  
+            document.getElementById("c").innerHTML = Number(document.getElementById("a").value) + Number(document.getElementById("b").value);
+            }
+            a();
+        </script>
+        <div id="c"></div>
+
+        <h2>Trade</h2> 
+
+
+
+
+        <div id = "trades"></div>
+        <div id="chart"></div>
+        <script>
+        //var binanceSocket = new WebSocket("wss://stream.binance.com:9443/ws/btcbusd@trades");
+
+    /*    var tradeDiv = document.getElementById('trades')
+        
+        binanceSocket.onmessage = function (event) {
+            console.log(event.data);
+            var message = JSON.parse(event.data)
+            tradeDiv.append(message.p)
+          }
+          
+          */
+        </script>
+        
+        <script src="chart.js">
+        
+        </script>
+    </body>  
+</html>
+

@@ -1,0 +1,23 @@
+ < {"e":"trade","E":1629854825828,"s":"BTCBUSD","t":225560655,"p":"47887.95000000","q":"0.07674000","b":3177948265,"a":3177948264,"T":1629854825828,"m":false,"M":true}
+wss://stream.binance.com:9443/ws/btcbusd@kline_1m
+
+{"e":"kline","E":1629855386025,"s":"BTCBUSD","k":{"t":1629855360000,"T":1629855419999,"s":"BTCBUSD","i":"1m","f":225562443,
+"L":225562498,"o":"47922.06000000","c":"47893.42000000","h":"47922.06000000","l":"47893.42000000","v":"0.49938600","n":56,"x":false,"q":"23922.71680094",
+"V":"0.12709300","Q":"6088.73488299","B":"0"}}
+webSocket = new WebSocket(url, protocols);
+
+
+
+1. trade bot
+2. trade and renovation 
+3. youtube
+4. bitcoin mining
+5. coustomer = rcih ediot iranian what is the product? 
+6.china and russia
+
+
+
+ 1. course
+ 2. price
+ 3. home 
+ 4. online or in person 
